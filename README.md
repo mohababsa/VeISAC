@@ -55,3 +55,11 @@ The simulation parameters used across all experiments are listed below.
 | Power allocation angle | θ = π/4 | Comm. noise figure ℱ_c | 7 dB | | |
 | Power constraint | cos²θ + sin²θ = 1 | Comm. noise power σ²_n,c | −84.0 dBm | | |
 | TX FoV (az×el) | 360°×180° | | | | |
+
+---
+
+## References
+
+---
+
+## License & Citation
