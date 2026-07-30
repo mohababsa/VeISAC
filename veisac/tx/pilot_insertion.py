@@ -20,7 +20,7 @@ import sys
 
 # Local imports
 try:
-    from deepverse.signal_processing.tx.isac_tx_config import ISACTXConfig, get_default_config
+    from veisac.tx.isac_tx_config import ISACTXConfig, get_default_config
 except ImportError:
     print("Warning: Could not import isac_tx_config. Using defaults.")
     ISACTXConfig = None

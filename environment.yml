@@ -127,8 +127,6 @@ dependencies:
       - stack-data==0.6.3
       - sympy==1.14.0
       - threadpoolctl==3.6.0
-      - torch==2.10.0+cu130
-      - torchvision==0.25.0+cu130
       - tqdm==4.67.3
       - traitlets==5.14.3
       - triton==3.6.0

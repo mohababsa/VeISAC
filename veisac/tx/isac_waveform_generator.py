@@ -20,8 +20,8 @@ import sys
 
 # Local imports
 try:
-    from deepverse.signal_processing.tx.isac_tx_config import ISACTXConfig, get_default_config
-    from deepverse.signal_processing.tx.modulation import DigitalModulator
+    from veisac.tx.isac_tx_config import ISACTXConfig, get_default_config
+    from veisac.tx.modulation import DigitalModulator
 except ImportError:
     print("Warning: Could not import local modules. Using defaults.")
     ISACTXConfig = None
