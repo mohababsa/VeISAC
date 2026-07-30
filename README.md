@@ -38,19 +38,20 @@ Once downloaded, place the dataset under `data/` and update the path in the rele
 
 The simulation parameters used across all experiments are listed below.
 
-| **ISAC Shared** | **Value** | **OFDM Communication** | **Value** | **FMCW Radar** | **Value** |
+| **ISAC Shared Parameters** | | **OFDM Communication Parameters** | | **FMCW Radar Parameters** | |
 |---|---|---|---|---|---|
+| **Parameter** | **Value** | **Parameter** | **Value** | **Parameter** | **Value** |
 | Frequency band | n257 (26.5–29.5 GHz) | Sampling rate F_s,c | 245.76 MHz | Sampling rate F_s,r | 200 MHz |
 | Carrier frequency f_c | 28 GHz | Subcarrier spacing Δf | 120 kHz | Chirp slope μ | 2.4×10¹³ Hz/s |
 | System bandwidth B | 200 MHz | FFT size N_FFT | 2048 | Samples/chirp N_samp | 1664 |
 | Wavelength λ | ≈ 10.71 mm | Active subcarriers N_sc | 1633 | Number of chirps N_c | 128 |
 | Transmit power P_TX | 43 dBm (20 W) | CP length N_CP | 1024 samples | Chirp duration T_chirp | 8.32 μs |
 | ISAC-TX antennas M_t | 4 (2×2 UPA) | OFDM symbols/slot N_sym | 14 | RX FoV (az×el) | ±90°×±90° |
-| UE Com-RX M_c | 2 (2×1 ULA) | Pilot spacing (time) D_t | 3 symbols | Sensing noise figure F_s | 5 dB |
+| UE Com-RX M_c | 2 (2×1 ULA) | Pilot spacing (time) D_t | 3 symbols | Sensing noise figure ℱ_s | 5 dB |
 | Mono. BS Sen-RX M_r | 4 (2×2 UPA) | Pilot spacing (freq.) D_f | 3 subcarriers | Sensing noise power σ²_n,s | −86.0 dBm |
 | Bist. BS Sen-RX M_r | 4 (2×2 UPA) | Total pilots/slot | 2725 | | |
 | Bist. UE Sen-RX M_r | 2 (2×1 ULA) | Default modulation | QPSK | | |
 | Antenna spacing d | λ/2 = 5.35 mm | RX FoV (az×el) | 360°×180° | | |
-| Power allocation angle | θ = π/4 | Comm. noise figure F_c | 7 dB | | |
+| Power allocation angle | θ = π/4 | Comm. noise figure ℱ_c | 7 dB | | |
 | Power constraint | cos²θ + sin²θ = 1 | Comm. noise power σ²_n,c | −84.0 dBm | | |
 | TX FoV (az×el) | 360°×180° | | | | |
