@@ -58,6 +58,22 @@ The simulation parameters used across all experiments are listed below.
 
 ---
 
+## VeISAC Modules
+
+### ISAC-TX (`veisac/tx/`)
+Implements the full transmitter chain: QAM modulation, pilot insertion, IFFT-based OFDM generation, linear FMCW chirp synthesis, and additive time-domain superposition ith trigonometric power allocation enforcing cos²θ + sin²θ = 1.
+
+### Com-RX (`veisac/rx/`)
+Implements the OFDM communication receiver: CP removal, FFT demodulation, pilot-based LS/MMSE channel estimation with FMCW interference-aware regularization, MMSE equalization, power recovery, and bit demapping.
+
+### Sen-RX (`veisac/rx/`)
+Implements the FMCW sensing receiver: NLMS-based OFDM interference mitigation, de-chirping, windowed range/Doppler FFT, zero-Doppler clutter removal, 2D OS-CFAR detection, MUSIC angle estimation, and CRB computation.
+
+### End-to-End Chain (`veisac/isac_chain.py`)
+Top-level orchestrator coordinating TX, channel application, Com-RX, Sen-RX, and joint performance evaluation (PAPR, BER, throughput, range/velocity/angle errors, EIR, Equiv-MSE, Capacity-Distortion) across all three baseline topologies.
+
+---
+
 ## References
 
 ---
