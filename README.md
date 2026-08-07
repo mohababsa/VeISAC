@@ -89,6 +89,10 @@ Results and figures are saved under `results/`.
 
 ## References
 
+[1] U. Demirhan, A. Taha, S. Jiang, and A. Alkhateeb, "DeepVerse 6G: A Dataset Generation Framework for Multi-Modal Sensing and Communication Digital Twins," preprint, Feb. 2025.
+
+[2] Remcom, "Wireless InSite," [Online]. Available: https://www.remcom.com/wireless-insite
+
 ---
 
 ## License & Citation
