@@ -92,3 +92,6 @@ Results and figures are saved under `results/`.
 ---
 
 ## License & Citation
+
+**1. VeISAC Paper:**
+M. Ababsa, S. Ribouh, Y. El Hillali, and A. Rivenq, "VeISAC: An End-to-End MIMO-OFDM-FMCW Framework for ISAC in 6G Vehicular Networks," submitted to *IEEE Transactions on Vehicular Technology*, 2026.
