@@ -74,6 +74,19 @@ Top-level orchestrator coordinating TX, channel application, Com-RX, Sen-RX, and
 
 ---
 
+## Quick Start
+
+Run the full end-to-end signal processing simulation across all baselines and calculate the communication, sensing, and unified ISAC performance metrics:
+
+```bash
+conda activate veisac-env
+python scripts/run_veisac.py 
+```
+
+Results and figures are saved under `results/`.
+
+---
+
 ## References
 
 ---
